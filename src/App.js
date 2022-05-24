@@ -12,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+    hello
          {
            countries.map(country => <Country key={country.ccn3} country={country}></Country>)
          }
